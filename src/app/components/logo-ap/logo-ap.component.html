@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img id="logoAP" src="../../../assets/APLogo-20-20.png" alt="logoAp">
+        </div>
+        <div class="redes">
+            <a href=""><img class="m-1" src="../../../assets/Facebook.jpg" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/kevin-serrano-86711a231/" target="_blank"><img class="m-1" src="../../../assets/Linkedin.jpg" alt="Linkedin"></a>
+            <a href=""><img class="m-1" src="../../../assets/mail.jpg" alt="Mail"></a>
+            <a href=""><img class="m-1" src="../../../assets/ig.png" alt="Instagram"></a>
+            <a href="https://github.com/kevinserrano01" target="_blank"><img class="m-1" src="../../../assets/GitHub.png" alt="Github"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingresar</button> <!--Iniciar Sesion-->
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button> <!--Cerrar Sesion-->
+        </div>
+    </div>
+</div>
